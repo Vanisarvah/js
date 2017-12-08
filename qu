@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div>
+<p id="demo"></p>
+<p id="demo1"></p>
+<p id="demo2"></p>
+
+<script>
+var names = [];
+document.getElementById("demo").innerHTML = names;
+</script>
+<script>
+var names = [
+
+];
+document.getElementById("demo1").innerHTML = cars;
+</script>
+</div>
+<div>
+<script>
+var cars = new Array();
+document.getElementById("demo2").innerHTML = cars;
+</script>
+
+</body>
+</html>
